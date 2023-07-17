@@ -1,0 +1,43 @@
+.grid{
+    width: 320px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}#square{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}.playerOne{
+    width: 30px;
+    height: 30px;
+    background-color: white ;
+}
+#diceOne{
+    font-size: 6rem;
+    margin: 5px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#diceTwo{
+    font-size: 6rem;
+    margin: 5px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}.dices{
+    display : flex;
+}
+.roll-animation{
+    animation-name: roll;
+}
+@keyframes roll {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateY(720deg) rotateX(720deg);
+    }
+}.home{
+    background-color: black;
+}
